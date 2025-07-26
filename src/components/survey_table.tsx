@@ -1,5 +1,5 @@
 import type { Survey } from "../../encuesta";
-import {  Table,  TableHeader,  TableBody,  TableFooter,  TableHead,  TableRow,  TableCell,  TableCaption} from "@/components/ui/table"
+import {  Table,  TableHeader, TableBody,  TableHead,  TableRow,  TableCell } from "@/components/ui/table"
 
 
 

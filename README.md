@@ -12,5 +12,4 @@ npm run dev
 para ejecutar en local
 
 
-[Proyecto haciendo un deploy en netlify](prueba1tecnicaisrael.netlify.app)
-
+Este proyecto fue desplegado en [Netlify](prueba1tecnicaisrael.netlify.app).

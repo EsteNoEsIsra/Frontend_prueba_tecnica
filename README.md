@@ -20,8 +20,9 @@ para ejecutar en local
 Este proyecto fue desplegado en [Netlify](https://prueba1tecnicaisrael.netlify.app).
 
 
-Tecnologias usadas 
+Tecnologias usadas :
 React.
 TypeScript.
 Vite.
 Tailwind CSS.
+libreria [Shadcn](https://ui.shadcn.com)

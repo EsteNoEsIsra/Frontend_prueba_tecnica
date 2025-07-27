@@ -12,4 +12,4 @@ npm run dev
 para ejecutar en local
 
 
-Este proyecto fue desplegado en [Netlify](prueba1tecnicaisrael.netlify.app).
+Este proyecto fue desplegado en [Netlify](https://prueba1tecnicaisrael.netlify.app).

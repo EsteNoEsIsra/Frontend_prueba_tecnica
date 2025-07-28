@@ -16,6 +16,10 @@ npm run dev
 ```
 para ejecutar en local
 
+o tambien 
+```
+npm run build 
+```
 
 Este proyecto fue desplegado en [Netlify](https://prueba1tecnicaisrael.netlify.app).
 

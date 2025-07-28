@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import type { Survey, Status_survey } from "../encuesta";
 import SurveyTable_fun from "./components/survey_table";
 import Status_survey_fun from "./components/filter_status";
-//import { Button } from "./components/ui/button";
-
+import { Sun, Moon } from "lucide-react";
 
 export default function App() {
   const [encuestas, setEncuestas] = useState<Survey[]>([]);
@@ -35,15 +34,13 @@ export default function App() {
         <h1 className="text-2xl font-bold mb-4 text-center">Encuestas</h1>
         <Status_survey_fun estado={estado} onChange={setEstado} />
         <SurveyTable_fun encuestas={filtradas} />
-
-        <div className="flex  items-center justify-center text-white dark:text-white p-4 rounded">
+        <div className="absolute top-4 right-4 flex items-center text-black dark:text-black p-4 rounded z-10">
           <button onClick={() => setDarkMode(!darkMode)} 
-            className="mb-4 px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
-               {darkMode ? 'Tema claro'  : 'Tema oscuro'}</button>
+            className="mb-4 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600  transition flex items-center gap-2">
+            {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
         </div>
-        
       </div>
     </div>
-
   );
 }

@@ -1,4 +1,9 @@
 # Prueba tecnica React + TypeScript + Vite
+Filtrar y mostrar los estados de un archivo json
+
+
+ 
+
 Usa
 
 ```
@@ -10,3 +15,18 @@ Para installar node modules y
 npm run dev 
 ```
 para ejecutar en local
+
+o tambien 
+```
+npm run build 
+```
+
+Este proyecto fue desplegado en [Netlify](https://prueba1tecnicaisrael.netlify.app).
+
+
+Tecnologias usadas :
+React.
+TypeScript.
+Vite.
+Tailwind CSS.
+libreria [Shadcn](https://ui.shadcn.com)

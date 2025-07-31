@@ -37,7 +37,7 @@ export default function App() {
         <div className="absolute top-4 right-4 flex items-center text-black dark:text-black p-4 rounded z-10">
           <button onClick={() => setDarkMode(!darkMode)} 
             className="mb-4 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600  transition flex items-center gap-2">
-            {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+            {darkMode ? <Sun color="white" size={18} /> : <Moon color="white" size={18} />}
           </button>
         </div>
       </div>
